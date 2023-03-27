@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.button {
+  color: #22223b;
+  background-color: #f2e9e4;
+  font-size: 15px;
+  padding: 7px 12px 7px 12px;
+  border-radius: 15px;
+  font-weight: 800;
+  border-style: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #c9ada7;
+  color: #4a4e69;
+  box-shadow: 0px 3px 1px cubic-bezier(0.4, 0, 0.2, 1),
+    0px 1px 2px cubic-bezier(0.4, 0, 0.2, 1),
+    0px 2px 2px cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
